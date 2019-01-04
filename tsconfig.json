@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2017",
+      "noEmitOnError": true,
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "outDir": "./dist",
+      "lib": ["esnext.asynciterable", "es2017"],
+      "typeRoots": ["./node_modules/@types"]
+    },
+    "include": ["src/"],
+    "exclude": ["node_modules"]
+}

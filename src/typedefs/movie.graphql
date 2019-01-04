@@ -1,0 +1,25 @@
+type Movie {
+    id: ID!
+    Title: String!
+    Actors: String!
+    Genre: String!
+    Awards: String!
+    Country: String!
+    Director: String!
+    Language: String!
+    Metascore: Float!
+    Plot: String!
+    Poster: String!
+    Rated: String!
+    Ratings: String!
+    Released: Float!
+    Response: String!
+    Runtime: Float!
+    Type: String!
+    Writer: String!
+    Year: Float!
+    imdbID: String!
+    imdbRating: Float!
+    imdbVotes: Float!
+    totalSeasons: Float!
+}
